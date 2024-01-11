@@ -73,3 +73,7 @@ And here you can user TShock's terminal, now you can type here `/help` to see av
 ## Special thanks
 
 Thanks to [beardedio](https://github.com/beardedio) for his [docker images](https://github.com/beardedio/terraria) that inspired me to create this environment.
+
+## License
+
+This project is licensed under [The MIT License](LICENSE.md)
