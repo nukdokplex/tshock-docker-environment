@@ -1,0 +1,8 @@
+# persistence data
+tshock_data
+
+# python virtual environment for pre-commit
+.venv
+
+# container(s) config file
+.env

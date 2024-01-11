@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  tshock:
+    container_name: ${APP_NAME}-tshock
+    build:
+      context: ./tshock
+      dockerfile: Dockerfile
+      args:
+        UID: ${TSHOCK_RUNNER_UID}
+        GID: ${TSHOCK_RUNNER_GID}
+        RELEASE_URL: ${TSHOCK_RELEASE_URL}
+    image: ${APP_NAME}-tshock
+    ports:
+      - 7777:${TSHOCK_BIND_PORT}
+    volumes:
+      - ./tshock_data:/home/tshock/tshock_data:rw
+    environment:
+      world: ${TSHOCK_WORLD_FILENAME}
+    tty: true
+    stdin_open: true
