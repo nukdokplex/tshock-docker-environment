@@ -8,7 +8,7 @@ TShock is a powerful dedicated Terraria server software. Please visit [official 
 
 ## Why?
 
-I wanted to create my own simple Docker environment for TShock. Make as simple as possible. I think that some people may found it's cool boilerplate for their own TShock environments so I created it. Also I have completed Terraria for Summoner class on this environment so it's fully working (for now).
+I wanted to create my own simple Docker environment for TShock. Make as simple as possible. I think that some people may find it's cool boilerplate for their own TShock environments so I created it. Also I have completed Terraria for Summoner class on this environment so it's fully working (for now).
 
 ## Installation
 
@@ -68,7 +68,7 @@ As you can see here container is running after name `your-terraria-server-tshock
 docker attach your-terraria-server-tshock
 ```
 
-And here you can user TShock's terminal, now you can type here `/help` to see available commands.
+And here you can use TShock's terminal, now you can type here `/help` to see available commands.
 
 ## Special thanks
 
